@@ -6,9 +6,9 @@ toolchain go1.21.1
 
 require (
 	github.com/bwmarrin/snowflake v0.3.0
-	github.com/gin-contrib/cors v1.5.0
+	github.com/gin-contrib/cors v1.7.2
 	github.com/gin-gonic/gin v1.9.1
-	github.com/go-jose/go-jose/v3 v3.0.2
+	github.com/go-jose/go-jose/v3 v3.0.3
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-webauthn/webauthn v0.10.1
 	github.com/golang-jwt/jwt v3.2.2+incompatible
@@ -21,7 +21,10 @@ require (
 )
 
 require (
+	github.com/bytedance/sonic/loader v0.1.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
+	github.com/cloudwego/base64x v0.1.4 // indirect
+	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/creasty/defaults v1.7.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
@@ -55,7 +58,8 @@ require (
 	go.opentelemetry.io/proto/otlp v1.1.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225 // indirect
-	golang.org/x/image v0.15.0 // indirect
+	golang.org/x/image v0.18.0 // indirect
+	golang.org/x/sync v0.7.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240304212257-790db918fca8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240304212257-790db918fca8 // indirect
 	google.golang.org/grpc v1.62.1 // indirect
@@ -64,10 +68,8 @@ require (
 
 require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
-	github.com/bytedance/sonic v1.11.2 // indirect
+	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
-	github.com/chenzhuoyu/base64x v0.0.0-20230717121745-296ad89f973d // indirect
-	github.com/chenzhuoyu/iasm v0.9.1 // indirect
 	github.com/cristalhq/jwt/v4 v4.0.2 // indirect
 	github.com/dave/jennifer v1.7.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
@@ -80,7 +82,7 @@ require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.19.0
+	github.com/go-playground/validator/v10 v10.20.0
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/golang/glog v1.2.0 // indirect
@@ -90,7 +92,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.5 // indirect
+	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
@@ -107,7 +109,7 @@ require (
 	github.com/ory/go-acc v0.2.9-0.20230103102148-6b1c9a70dbbe // indirect
 	github.com/ory/go-convenience v0.1.0 // indirect
 	github.com/ory/x v0.0.616 // indirect
-	github.com/pelletier/go-toml/v2 v2.1.1 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
@@ -122,15 +124,15 @@ require (
 	github.com/wenlng/go-captcha v1.2.5
 	github.com/x448/float16 v0.8.4 // indirect
 	golang.org/x/arch v0.7.0 // indirect
-	golang.org/x/crypto v0.21.0
-	golang.org/x/mod v0.16.0 // indirect
-	golang.org/x/net v0.22.0 // indirect
+	golang.org/x/crypto v0.23.0
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/oauth2 v0.18.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.19.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/appengine v1.6.8 // indirect
-	google.golang.org/protobuf v1.33.0 // indirect
+	google.golang.org/protobuf v1.34.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1
 )
